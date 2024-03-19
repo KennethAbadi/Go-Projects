@@ -1,5 +1,5 @@
 //go:generate stringer -type=Suit,Value
-package main
+package deck
 
 type Suit uint8 //Spade Diamond Club Heart, Joker for extra
 
